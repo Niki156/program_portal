@@ -27,8 +27,8 @@ public class DashBoardSmokeTestCase {
 		context.setAttribute("driver", driver);
 		dashboard = new DashBoard(driver).getDashBoard();
 	}
-	//@Test
-	/*public void testTotalBatchesCard()
+	@Test
+	public void testTotalBatchesCard()
 	{
 		BrowserReusableFunctions.waitUntilElementIsVisibleByXpath(driver, DashBoardConstants.TOTAL_BATCHES_DIV_XPATH);
 		SoftAssert softassert = new SoftAssert();
@@ -43,17 +43,7 @@ public class DashBoardSmokeTestCase {
 	public void tearDown()
 	{
 		driver.close();
-	}*/
-	
-	
-	
-	
-	
-	
-	@Test
-	public void ansdkjf()
-	{
-		assertFalse(true);
 	}
+
 
 }
